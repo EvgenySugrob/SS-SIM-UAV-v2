@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 2088d3a4104b9964b93dd2216926203a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Antenna
+    100002: Antenna1
+    100004: Antenna10
+    100006: Antenna11
+    100008: Antenna2
+    100010: Antenna3
+    100012: Antenna4
+    100014: Antenna5
+    100016: Antenna6
+    100018: Antenna7
+    100020: Antenna8
+    100022: Antenna9
+    100024: Antennas
+    100026: Door_upper3
+    100028: Doors_bottom3
+    100030: Pillars3
+    100032: Roof_room4
+    100034: Top_and_bottom
+    100036: Upper_room_1
+    100038: //RootNode
+    100040: Zdanie_building1
+    400000: Antenna
+    400002: Antenna1
+    400004: Antenna10
+    400006: Antenna11
+    400008: Antenna2
+    400010: Antenna3
+    400012: Antenna4
+    400014: Antenna5
+    400016: Antenna6
+    400018: Antenna7
+    400020: Antenna8
+    400022: Antenna9
+    400024: Antennas
+    400026: Door_upper3
+    400028: Doors_bottom3
+    400030: Pillars3
+    400032: Roof_room4
+    400034: Top_and_bottom
+    400036: Upper_room_1
+    400038: //RootNode
+    400040: Zdanie_building1
+    2100000: lambert1
+    2100002: stupenki
+    2100004: dver1
+    2100006: ramu_okon
+    2100008: steklo
+    2100010: Okna_back
+    2100012: panely
+    2100014: bottom_stena
+    2100016: stena_main
+    2100018: balkon
+    2100020: pilars
+    2100022: Antenna_2
+    2100024: antenna_1
+    2100026: bricks
+    2300000: Antenna
+    2300002: Antenna1
+    2300004: Antenna10
+    2300006: Antenna11
+    2300008: Antenna2
+    2300010: Antenna3
+    2300012: Antenna4
+    2300014: Antenna5
+    2300016: Antenna6
+    2300018: Antenna7
+    2300020: Antenna8
+    2300022: Antenna9
+    2300024: Door_upper3
+    2300026: Doors_bottom3
+    2300028: Pillars3
+    2300030: Roof_room4
+    2300032: Top_and_bottom
+    2300034: Zdanie_building1
+    3300000: Antenna
+    3300002: Antenna1
+    3300004: Antenna10
+    3300006: Antenna11
+    3300008: Antenna2
+    3300010: Antenna3
+    3300012: Antenna4
+    3300014: Antenna5
+    3300016: Antenna6
+    3300018: Antenna7
+    3300020: Antenna8
+    3300022: Antenna9
+    3300024: Door_upper3
+    3300026: Doors_bottom3
+    3300028: Pillars3
+    3300030: Roof_room4
+    3300032: Top_and_bottom
+    3300034: Zdanie_building1
+    4300000: Top_and_bottom
+    4300002: Doors_bottom3
+    4300004: Zdanie_building1
+    4300006: Pillars3
+    4300008: Antenna
+    4300010: Antenna1
+    4300012: Antenna2
+    4300014: Antenna3
+    4300016: Antenna4
+    4300018: Antenna5
+    4300020: Antenna6
+    4300022: Antenna7
+    4300024: Antenna8
+    4300026: Antenna9
+    4300028: Antenna10
+    4300030: Antenna11
+    4300032: Door_upper3
+    4300034: Roof_room4
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
