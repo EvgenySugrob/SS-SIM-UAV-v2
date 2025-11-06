@@ -31,7 +31,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8172592399446564390}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -168,7 +167,6 @@ RectTransform:
   m_Children:
   - {fileID: 4671016660122949197}
   m_Father: {fileID: 8172592399446564390}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -222,7 +220,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5623218723852859556}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UavInfoFill, Assembly-CSharp
         m_MethodName: TargetLockedOn
         m_Mode: 0
@@ -266,7 +264,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8172592399446564390}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -401,7 +398,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4671016660122949197}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -478,7 +474,6 @@ RectTransform:
   m_Children:
   - {fileID: 6168889481936747184}
   m_Father: {fileID: 2827714737263593798}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -560,7 +555,6 @@ RectTransform:
   - {fileID: 5786795744560073272}
   - {fileID: 2827714737263593798}
   m_Father: {fileID: 6122068254365303604}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -649,7 +643,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5623218723852859556}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UavInfoFill, Assembly-CSharp
         m_MethodName: SwitchCameraAndSuppression
         m_Mode: 1
@@ -692,7 +686,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8172592399446564390}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -805,7 +798,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6122068254365303604}
-  - component: {fileID: 5623218723852859556}
   m_Layer: 5
   m_Name: UavInfo
   m_TagString: Untagged
@@ -827,34 +819,12 @@ RectTransform:
   m_Children:
   - {fileID: 8172592399446564390}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.565, y: 0.10581}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &5623218723852859556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6802856290074654807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f655c40b1f040564a8ddeed546ba45cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textId: {fileID: 6586368770706436488}
-  textDistance: {fileID: 8222278582275494498}
-  textHeight: {fileID: 6276548525035945512}
-  textVelocity: {fileID: 1884426320156931511}
-  uav: {fileID: 0}
-  scan: {fileID: 0}
-  infoButton: {fileID: 3379879438029754479}
-  targetLockedToggle: {fileID: 1418157559751761221}
-  contentSpawnObject: {fileID: 0}
 --- !u!1 &8340913865534140640
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,7 +856,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8172592399446564390}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}

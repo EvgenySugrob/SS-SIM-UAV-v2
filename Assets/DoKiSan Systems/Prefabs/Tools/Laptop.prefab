@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 1587612336815629378}
   - component: {fileID: 3991596563594740326}
   - component: {fileID: 5749095986318624665}
+  - component: {fileID: 6727635705915163662}
   m_Layer: 0
   m_Name: Laptop
   m_TagString: Sensor
@@ -167,6 +168,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.35360584, y: 0.017103486, z: 0.23751895}
   m_Center: {x: -0.0005157789, y: 0.008515384, z: -0.108973525}
+--- !u!114 &6727635705915163662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2278008180708171768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d241970182ce6946adcbff41f5295a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseName: "\u041D\u043E\u0443\u0442\u0431\u0443\u043A"
+  id: -1
 --- !u!1 &2420030185945660141
 GameObject:
   m_ObjectHideFlags: 0

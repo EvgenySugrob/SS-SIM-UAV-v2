@@ -314,9 +314,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ee87c8abf2e6a1428a3dae611f438a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseName: Device
+  baseName: "\u0421\u043A\u0430\u043D\u0435\u0440 360\xB0"
   id: -1
-  inspectorActions: []
 --- !u!1 &3420898348702757861
 GameObject:
   m_ObjectHideFlags: 0
