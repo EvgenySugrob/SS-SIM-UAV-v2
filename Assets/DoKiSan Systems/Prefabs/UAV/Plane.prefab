@@ -5399,8 +5399,8 @@ MonoBehaviour:
       OuterRadius: 2
       Power: 1
   velocity:
-    PreferredSpeed: 500
-    MaxSpeed: 1000
+    PreferredSpeed: 6
+    MaxSpeed: 8
     Sensors: []
     SignalProcessors: []
     AgentRadius: 2
@@ -5408,7 +5408,7 @@ MonoBehaviour:
     SamplesPerPulse: 400
   decision:
     MaxDangerThreshold: 0.5
-    PreferredVelocityInfluence: 0.5
+    PreferredVelocityInfluence: 1
     InterpolationSpeed: 8
   pulseRoutine:
     Mode:
@@ -5420,11 +5420,11 @@ MonoBehaviour:
   RigidBody: {fileID: 4586012672686981336}
   CharacterController: {fileID: 0}
   locomotion:
-    MaxForwardSpeed: 1000
-    MaxStrafeSpeed: 3
-    MaxTurnSpeedDegrees: 720
+    MaxForwardSpeed: 8
+    MaxStrafeSpeed: 1
+    MaxTurnSpeedDegrees: 180
     MaxAccel: 4
-    MaxAngularAccelDegrees: 360
+    MaxAngularAccelDegrees: 90
     MaxSpeedMultiplier: 1.2
     Strafing:
       targetTransform: {fileID: 0}
