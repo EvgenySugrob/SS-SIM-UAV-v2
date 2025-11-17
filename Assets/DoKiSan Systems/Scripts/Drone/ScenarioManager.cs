@@ -15,7 +15,7 @@ public class ScenarioManager : MonoBehaviour
     public Transform[] spawnPoints;
 
     [Header("Objects of interest in location")]
-    public ObjectOfInterest[] objectsOfInterest;
+    [SerializeField] List<ObjectOfInterest> objectsOfInterest;
 
     [Header("Optional attack targets (explicit)")]
     public Transform[] attackTargets;
@@ -37,7 +37,7 @@ public class ScenarioManager : MonoBehaviour
             Debug.LogWarning("[ScenarioManager] No spawn points assigned.");
             return;
         }
-        if (objectsOfInterest == null || objectsOfInterest.Length == 0)
+        if (objectsOfInterest == null || objectsOfInterest.Count == 0)
         {
             Debug.LogWarning("[ScenarioManager] No objectsOfInterest assigned.");
             return;
@@ -63,7 +63,7 @@ public class ScenarioManager : MonoBehaviour
             BehaviorMode assignedBehavior = ResolveBehaviorForIndex(behaviorMode, ref lastWasRecon);
 
             // choose random object of interest
-            ObjectOfInterest oi = objectsOfInterest[Random.Range(0, objectsOfInterest.Length)];
+            ObjectOfInterest oi = objectsOfInterest[Random.Range(0, objectsOfInterest.Count)];
             if (oi == null)
             {
                 // do not consume a spawn slot if chosen oi is null — skip this spawn point
@@ -220,5 +220,14 @@ public class ScenarioManager : MonoBehaviour
         // destroy instantiated path instances
         foreach (var p in spawnedPaths) if (p != null) Destroy(p);
         spawnedPaths.Clear();
+    }
+
+    public void SetNewObjectsOfInterestInLocation(List<ObjectOfInterest> newObjects)
+    {
+        if(objectsOfInterest.Count > 0)
+        {
+            objectsOfInterest.Clear();
+            objectsOfInterest = newObjects;
+        }
     }
 }

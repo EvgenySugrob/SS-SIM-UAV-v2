@@ -16,6 +16,12 @@ public class SpawnPointPlacer : MonoBehaviour
     [Tooltip("Если true — применяем и поворот anchor к контейнеру.")]
     public bool applyRotationFromAnchor = true;
 
+    [Header("ScenarioManager and Player")]
+    [SerializeField] ScenarioManager scenarioManager;
+    [SerializeField] List<ObjectsInteresting> objectsInteresting;
+    [SerializeField] List<Transform> playerLocationPosition;
+    [SerializeField] Transform player;
+
     [Serializable]
     public struct LocationAnchor
     {
@@ -43,6 +49,10 @@ public class SpawnPointPlacer : MonoBehaviour
             int idx = (int)chosen;
             if (idx >= 0 && idx < spawnPointPositions.Count && spawnPointPositions[idx] != null)
             {
+                scenarioManager.SetNewObjectsOfInterestInLocation(objectsInteresting[idx].GetObjectOfInterests());
+                player.position = playerLocationPosition[idx].position;
+                player.rotation = playerLocationPosition[idx].rotation;
+
                 Transform anchor = spawnPointPositions[idx];
                 MoveContainerTo(anchor);
                 return;
